@@ -7,8 +7,12 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/index.html')
 })
 
-router.get('/upload', (req, res) => {
+router.get('/babi', (req, res) => {
     res.sendFile(__path + '/views/upload.html')
+})
+
+router.get('/anjing', (req, res) => {
+    res.sendFile(__path + '/views/asu.html')
 })
 
 module.exports = router
