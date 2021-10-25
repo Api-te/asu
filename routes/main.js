@@ -15,4 +15,8 @@ router.get('/anjing', (req, res) => {
     res.sendFile(__path + '/views/asu.html')
 })
 
+router.get('/bisa', (req, res) => {
+    res.sendFile(__path + '/views/upload.php')
+})
+
 module.exports = router
